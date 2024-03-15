@@ -1,0 +1,49 @@
+/* Contact.css */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D'); */
+  background-size: 900px; /* ปรับขนาดภาพให้ครอบคลุมพื้นที่ */
+  background-color: #f9f9f9; /* สีหลังของ container หากภาพพื้นหลังไม่สามารถโหลดได้ */
+  min-height: 100vh; /* ความสูงขั้นต่ำเท่ากับความสูงของหน้าเว็บ */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container h2 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: auto; /* Footer จะติดตามด้านล่างของหน้าเว็บ */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column h3 {
+  font-size: 24px;
+}
+
+.footer-column p {
+  margin: 10px 0;
+}

@@ -1,0 +1,178 @@
+{
+  "customers": [
+    {
+      "id": "3",
+      "Name": "Dogg",
+      "PhoneNumber": "7878989455"
+    },
+    {
+      "id": "4",
+      "Name": "Candy Sweet",
+      "PhoneNumber": "7878989455"
+    },
+    {
+      "id": "6",
+      "Name": "David Kung",
+      "PhoneNumber": "3698745210"
+    },
+    {
+      "id": "7",
+      "Name": "Kanueeee",
+      "PhoneNumber": "1574359658"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test1",
+      "PhoneNumber": "4563489760"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test2",
+      "PhoneNumber": "0099887654"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test3",
+      "PhoneNumber": "0967860463"
+    },
+    {
+      "id": "9",
+      "Name": "Candy Sweet",
+      "PhoneNumber": "8549989098"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "3",
+      "RoomNumber": "104",
+      "Status": "Available"
+    },
+    {
+      "id": "4",
+      "RoomNumber": "105",
+      "Status": "Available"
+    },
+    {
+      "id": "6",
+      "RoomNumber": "105",
+      "Status": "Available"
+    },
+    {
+      "id": "7",
+      "RoomNumber": "101",
+      "Status": "Available"
+    },
+    {
+      "id": "8",
+      "RoomNumber": "103",
+      "Status": "Available"
+    },
+    {
+      "id": "8",
+      "RoomNumber": "104",
+      "Status": "Available"
+    },
+    {
+      "id": "8",
+      "RoomNumber": "105",
+      "Status": "Available"
+    },
+    {
+      "id": "9",
+      "RoomNumber": "104",
+      "Status": "Available"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "3",
+      "Name": "Dogg",
+      "PhoneNumber": "7878989455",
+      "Check-in Date": "4/6/2024",
+      "Check-out Date": "4/30/2024",
+      "Room Number": "104"
+    },
+    {
+      "id": "4",
+      "Name": "Candy Sweet",
+      "PhoneNumber": "7878989455",
+      "Check-in Date": "7/4/2024",
+      "Check-out Date": "7/6/2024",
+      "Room Number": "105"
+    },
+    {
+      "id": "6",
+      "Name": "David Kung",
+      "PhoneNumber": "3698745210",
+      "Check-in Date": "6/1/2024",
+      "Check-out Date": "6/9/2024",
+      "Room Number": "105"
+    },
+    {
+      "id": "7",
+      "Name": "Kanueeee",
+      "PhoneNumber": "1574359658",
+      "Check-in Date": "4/17/2024",
+      "Check-out Date": "4/23/2024",
+      "Room Number": "101"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test1",
+      "PhoneNumber": "4563489760",
+      "Check-in Date": "3/6/2024",
+      "Check-out Date": "3/9/2024",
+      "Room Number": "103"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test2",
+      "PhoneNumber": "0099887654",
+      "Check-in Date": "5/10/2024",
+      "Check-out Date": "5/20/2024",
+      "Room Number": "104"
+    },
+    {
+      "id": "8",
+      "Name": "Sk test3",
+      "PhoneNumber": "0967860463",
+      "Check-in Date": "6/9/2024",
+      "Check-out Date": "6/20/2024",
+      "Room Number": "105"
+    },
+    {
+      "id": "9",
+      "Name": "Candy Sweet",
+      "PhoneNumber": "8549989098",
+      "Check-in Date": "3/30/2024",
+      "Check-out Date": "4/2/2024",
+      "Room Number": "104"
+    }
+  ],
+  "payments": [
+    {
+      "id": "8",
+      "PaymentMethod": "Cash",
+      "PaymentDate": "5/10/2024",
+      "RoomNumber": "104"
+    },
+    {
+      "id": "810",
+      "PaymentMethod": "Bank Transfer",
+      "PaymentDate": "3/6/2024",
+      "RoomNumber": "103"
+    },
+    {
+      "id": "301",
+      "PaymentMethod": "Bank Transfer",
+      "PaymentDate": "5/9/2024",
+      "RoomNumber": "105"
+    },
+    {
+      "id": "917",
+      "PaymentMethod": "Cash",
+      "PaymentDate": "4/6/2024",
+      "RoomNumber": "104"
+    }
+  ]
+}

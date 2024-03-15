@@ -1,0 +1,83 @@
+.booking-details-container {
+  padding: 20px;
+}
+
+.booking-details-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.booking-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.booking-card p {
+  margin: 5px 0;
+}
+
+.booking-card hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+.no-bookings {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+}
+
+.payment-button, .delete-button {
+  padding: 10px 20px; /* เพิ่ม padding เพื่อเพิ่มขนาดของปุ่ม */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* เว้นระยะห่างด้านบน */
+  margin-right: 10px; /* เว้นระยะห่างด้านขวา */
+}
+
+.payment-button {
+  background-color: #4CAF50; /* สีเขียว */
+  color: white;
+}
+
+.payment-button:hover {
+  background-color: #45a049; /* สีเขียวเข้มเมื่อเม้าส์ hover */
+}
+
+.delete-button {
+  background-color: #f44336; /* สีแดง */
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* สีแดงเข้มเมื่อเม้าส์ hover */
+}
